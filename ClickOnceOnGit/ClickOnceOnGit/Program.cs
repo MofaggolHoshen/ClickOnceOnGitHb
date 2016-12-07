@@ -11,7 +11,8 @@ namespace ClickOnceOnGit
         static void Main(string[] args)
         {
             Console.WriteLine("String to print:)");
-            Console.WriteLine($"{Console.ReadLine()}{Environment.NewLine}Press any key to exit.");
+            Console.WriteLine($"{Console.ReadLine()}");
+            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
     }
